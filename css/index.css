@@ -1,0 +1,116 @@
+/*背景图片*/
+body{ 
+    background-image:url('../img/bj1.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+/*白色底衬   透明度设置0.6*/  
+.bsbj{ 
+ 	width:1024px; padding:10px; height:auto; 
+ 	min-height:700px;margin:10px auto; 
+ 	background-color:#fff;
+ 	background-color:rgba(255,255,255,0.6);
+ 	-moz-border-radius:10px;
+ 	border-radius:10px; 
+ 	}
+/*左上角图片位置大小设置*/ 
+.logo{
+	width:200px;
+	height:200px;
+	float:left;
+	margin-left:40px;
+	margin-top:20px ;
+}
+/*顶部图片*/
+.toplogo{
+	position: relative;
+	top: 20px;
+	left: 30px;
+}
+/*表格大小位置*/
+.nav {
+	position: relative;
+	top: 20px;
+	left: 13%;
+	height: 40px;
+	width: 750px;
+}
+/*导航栏文字*/
+.dhl{
+	font-family: "幼圆";
+	font-size: 20px;
+	margin-top: 5px;
+}
+/*右侧底部花*/
+.righttp{
+	position:fixed;
+	right: 0px;
+	bottom: 0px;
+}
+/*顶部树枝*/
+.topbj{
+	position: fixed;
+	top:0px;
+	left: 0px;
+}
+/*显示当前时间*/
+.time{
+	position:fixed;
+	left:5px;
+	bottom: 20%;
+	width: auto;
+	height: auto;
+	background-color: lightgreen;
+	font-family: "幼圆";
+	font-size: 19px;
+ 	border-radius:10px;
+}
+/*姓名的表格*/
+.lj{
+	position:fixed;
+	left: 5px;
+	top: 35%;
+	font-family: "楷体";
+	font-size: 25px;
+	font-weight: bold;
+	border-radius:10px;
+}
+/*按钮的样式*/
+.button{
+	width: 80px;height: 40px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: whitesmoke;
+	background-color: #00008B;
+	border-radius:10px;
+}
+/*视频的背景*/
+.mp4bj{ 
+	font-family: "楷体";color:brown;
+	font-size: 30px;
+	text-align: center;
+	line-height: 0px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 70px;
+ 	width:800px;  height:500px; 
+ 	background-color:wheat;
+ 	border-radius:10px; 
+ 	}
+/*第一段话*/
+.p1{
+	text-indent: 2em;
+	line-height: 150%;
+	font-family: 仿宋;
+	font-size: 25px;
+	font-weight: bold;
+	color:darkblue;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+/*大标题*/
+h3{color: black;font-family: "微软雅黑";}
+/*内容文字*/
+.p2{color:black; font-size: 15;}
+/*引用的出处*/
+.p3{font-family: "微软雅黑"; font-size: 20px; font-style: italic; text-align: right;color: black;}

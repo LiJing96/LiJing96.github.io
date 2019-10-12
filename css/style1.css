@@ -1,0 +1,125 @@
+/*背景图片*/
+body{ 
+    background-image:url(../img/biduimg/bidu_bj.jpg);
+    background-repeat:repeat-y;
+    background-size:cover;
+  }
+/*半透明低衬*/  
+.bsbj{ 
+ 	width:1150px; padding:10px; height: 2700px; 
+ 	min-height:700px;margin:10px auto; 
+ 	background-color:rgba(220,220,220,0.8);
+ 	-moz-border-radius:10px;
+ 	border-radius:10px; 
+ 	}
+/*标题*/ 	
+.btbj{
+	margin-left: 70px;
+	margin-top: 10px;
+}
+/*导航栏*/
+.nav {
+	position: relative;
+	top: 10px;
+	left: 15%;
+	height: 40px;
+	width: 750px;
+}
+/*导航栏文字*/
+.dhl{
+	background-color: khaki;
+	font-family: 幼圆;
+	font-size: 20px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+/*图书整体*/
+.tushu {
+	height: 400px;
+	width: 100%;
+}
+/*图书图片背景左边*/
+.tushu_tp_bj_l{
+	background-color:#F5DEB3;
+ 	background-color:rgba(255,255,255,0.8);
+ 	-moz-border-radius:10px;
+ 	border-radius:10px; 
+	float: left;
+	margin-left: 30px;
+	margin-top: 55px;
+	width:30%;
+	height: 420px;
+}
+/*图书图片背景右边*/
+.tushu_tp_bj_r{
+	background-color:#F5DEB3;
+ 	background-color:rgba(255,255,255,0.8);
+ 	-moz-border-radius:10px;
+ 	border-radius:10px; 
+	float: right;
+	margin-right: 70px;
+	margin-top: 55px;
+	width:30%;
+	height: 420px;
+}
+/*图书图片格式*/
+.tushu_tp{
+	margin-top: 10px;
+ 	margin-right: 20px;
+ 	margin-left: 30px;
+}
+/*图书文字背景右边*/
+.tushu_wz_bj_r{
+	float: right;
+	background-color:#F5DEB3;
+ 	background-color:rgba(255,255,255,0.8);
+ 	-moz-border-radius:10px;
+ 	border-radius:10px; 
+ 	margin-top: 55px;
+ 	margin-right: 70px;
+ 	height: 420px;
+	width: 60%;
+}
+/*图书文字背景左边*/
+.tushu_wz_bj_l{
+	float: left;
+	background-color:#F5DEB3;
+ 	background-color:rgba(255,255,255,0.8);
+ 	-moz-border-radius:10px;
+ 	border-radius:10px; 
+ 	margin-top: 55px;
+ 	margin-left: 30px;
+ 	height: 420px;
+	width: 60%;
+}
+/*图书文字格式*/
+.tushu_wz{
+	float: right;
+ 	margin-top: 10px;
+ 	margin-right: 20px;
+ 	margin-left: 20px;
+}
+/*标题*/
+h1{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: cadetblue;
+}
+/*内容*/
+p{
+	font-family: "楷体";
+	font-size: 20px;
+	color: #5F9EA0;
+}
+/*左侧叶子图片*/
+.lefttop{
+	position:fixed;
+	top:-50px;
+	left:-30px;
+}
+/*右侧竹子图片*/
+.ringhtbian{
+	position:fixed;
+	right: -17px;
+	bottom: -5px;
+}

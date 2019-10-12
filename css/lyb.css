@@ -1,0 +1,79 @@
+/*背景图片*/
+body{ 
+    background-image:url(../img/lyb/bj.jpg);
+    background-size:cover;
+  }
+/*低衬*/
+.bsbj{ 
+ 	width:1024px; padding:10px; height: auto; 
+ 	min-height:700px;margin:10px auto; 
+ 	background-color:rgba(255,255,255,0.6);
+ 	-moz-border-radius:10px;
+ 	border-radius:10px; 
+}
+/*标题的背景*/
+.btbj{
+	background-color:rgba(176,224,230,0.6);
+ 	-moz-border-radius:10px;
+ 	border-radius:10px; 
+	width:80%;
+	height:300px;
+}
+/*导航栏设置*/
+.dhl{
+	font-family: "幼圆";
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 5px;
+}
+/*留言区的背景*/
+.lyqbj{
+	margin-top: 30px;
+	background-color:rgba(176,224,230,0.6);
+ 	-moz-border-radius:10px;
+ 	border-radius:10px; 
+	width:80%;
+	height:auto;
+	font-family: "楷体";
+	font-size: 30px;
+}
+/*表单文字*/
+.form_weizhi {
+	margin-bottom: 30px;
+}
+/*表单样式*/
+.form_style{
+	color: #848484;
+	display: block;
+	font-size: 14px;
+	height: 50px;
+	padding: 0 20px;
+	width: 70%;
+	font-weight: 400;
+	font-family: 'Roboto';
+	border: 1px ;
+}
+/*表单样式留言*/
+.form_style2{
+	color: #848484;
+	display: block;
+	font-size: 14px;
+	height: 200px;
+	padding: 0 20px;
+	width: 70%;
+	resize: none;
+	font-weight: 400;
+	font-family: 'Roboto';
+	border: 1px ;
+}
+/*提交按钮*/
+.button{
+	width: 80px;height: 40px;
+	font-family: "幼圆";
+	font-weight: bold;
+	font-size: 15px;
+	color: #000000;
+	display: block;
+	font-size: 20px;
+	border-radius:10px; 
+}
